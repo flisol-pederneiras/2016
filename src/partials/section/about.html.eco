@@ -1,6 +1,8 @@
 <h2 class="section-title"><%= @labels['about'] %></h2>
-<p itemprop="description">So you want to organize a conference? That's pretty awesome! But we know that you don't have time to create the website, since you have to worry about contacting sponsors, chossing the right place, buying airplane tickets for speakers and many other things.</p>
-
-<p>That's why we created this project! <a href="https://github.com/braziljs/conf-boilerplate">Conf Boilerplate</a> is an iniciative of <a href="http://braziljs.org">BrazilJS Foundation</a> that provides a simple structure built on top of Docpad, a static generator in NodeJS, with all the things you need to create a event. We also provide a responsive template with i18n!</p>
-
-<p>This is just a live demo, check our <a href="https://github.com/braziljs/conf-boilerplate">repository on Github</a> for more details =D</p>
+<p itemprop="description">O Festival Latino Americano de Instalação de Software Livre - FLISoL é um evento internacional, realizado anualmente, e que ocorre de forma simultânea em diversas cidades da América Latina. O FLISoL é um evento descentralizado, onde diversas comunidades organizam e realizam seu festival, de forma voluntária, tendo como principal objetivo promover o uso de software livre, apresentando sua filosofia, alcance, avanços e desenvolvimento ao público em geral.</p>
+<p>
+O FLISoL acontece, historicamente, no 4º sábado de abril (em 2006 foi no 25 de março; em 2007, 28 de abril; 2008, 26 de abril; 2009 e 2010, no dia 24 de abril; 2011, no dia 9 de abril;2012, 28 de abril; 2013, 27 de abril; 2014, 26 de abril; 2015, 25 de abril) O FLISOL 2016 esta marcado para o dia 16 de abril.
+</p>
+<p>
+O evento é gratuito e aberto a todo o público: curiosos, interessados e amantes do Software Livre. Nesse dia os voluntários propõe a instalação de Software Livre, como distribuições de GNU/Linux, sistemas BSD, e aplicativos livres para Windows em geral. Alguns eventos também contam com palestras, oficinas, sala de degustação e gravações de mídias (live-CD/DVD e/ou pendrives).
+</p>

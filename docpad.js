@@ -12,8 +12,8 @@ module.exports = {
       date: "Abril 16",
       // If your event is free, just comment this line
       //price: "$0",
-      venue: "Coco Bongo",
-      address: "Boulevard Kukulcan, 30",
+      venue: "Faculdade - FGP",
+      address: "R. Professsor Massud José Nachef, 1-2855",
       city: "Pederneiras",
       state: "São Paulo"
     },
@@ -33,8 +33,7 @@ module.exports = {
     // Site info
     site: {
       theme: "yellow-swan",
-      url: "http://braziljs.github.io/conf-boilerplate/",
-      googleanalytics: "UA-33656081-1"
+      url: "https://github.com/flisol-pederneiras/2016", googleanalytics: "UA-33656081-1"
     },
 
     // Active sections on the website
@@ -46,8 +45,8 @@ module.exports = {
       'speakers',
       'schedule',
       'sponsors',
-      'partners'
-      // 'contact'
+      'partners',
+      'contact'
     ],
 
     // Labels which you can translate to other languages
@@ -64,37 +63,37 @@ module.exports = {
     // The entire schedule
     schedule: [
       {
-        name: "Check-in / Breakfast",
-        time: "9h00"
+        name: "Abertura / Apresentação",
+        time: "08h00"
       },
       {
-        name: "Linus Torvalds",
-        photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Linux Foundation",
+        name: "Paulo Leandro Rosa",
+        photo: "themes/yellow-swan/img/paulo.jpg",
+        bio: "Paulo Leandro Rosa (Dro13n) is the Information Security specialist, coordinator and director of the oldest and largest event in Latin America FLISOL. Active contributor to open source projects and vulnerability enthusiastic researcher and Malware analysis. ",
+        company: "Br Security",
         link: {
-          href: "http://twitter.com/linus",
-          text: "@linus"
+          href: "mailto:paulo.rosa@fgp.com.br",
+          text: "@email"
         },
         presentation: {
-          title: "Digging into a Linux Kernel",
+          title: "Como fazer ataques DDos",
           description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time: "10h00"
+          time: "08h30"
         }
       },
       {
-        name: "Bill Gates",
-        photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Microsoft",
+        name: "Jorge Luiz Taioque",
+        photo: "themes/yellow-swan/img/jorge.jpg",
+        bio: "I started study computing and telecomunications about 13 years. My first course was Delph programer, after that I don't stop study computing science more.",
+        company: "LPNet Internet Provider",
         link: {
-          href: "http://github.com/billy95",
-          text: "@billy95"
+          href: "https://www.linkedin.com/in/jorgeluiztaioque",
+          text: "linkedin"
         },
         presentation: {
-          title: "Introducing Windows 12",
+          title: "Como preparar um ambiente para estudos e pesquisas de rede com software livre",
           description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time: "11h00"
+          time: "09h15"
         }
       },
       {
