@@ -14,7 +14,15 @@
         <% if speaker.presentation.time: %>
           <span class="speech-time"><%= speaker.presentation.time %></span>
         <% end %>
+        <% if speaker.presentation.downloadLink: %>
+          <span> 
+            <a href="<%= speaker.presentation.downloadLink %>" alt="Clique para baixar a palestra">
+              <%= speaker.presentation.title %>
+            </a>
+          </span>
+        <% else: %>
           <span> <%= speaker.presentation.title %></span>
+        <% end %>        
       </h3>
 
       <h3 class="speakers-name"><%= speaker.name %> <% if speaker.link: %><a href="<%= speaker.link.href %>" title="<%= speaker.link.text %>"><%= speaker.link.text %></a><% end %></h3>

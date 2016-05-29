@@ -20,10 +20,10 @@ module.exports = {
 
     // The Call To Action button at the header,
     // If you don't want this, just remove the callToAction property.
-    callToAction: {
-        text: "Register now!",
-        link: "http://eventick.com.br"
-    },
+    //callToAction: {
+        //text: "Register now!",
+        //link: "http://eventick.com.br"
+    //},
 
     // "Fork me on GitHub", if you don't want this, just remove the forkButton property
     forkButton: {
@@ -44,9 +44,9 @@ module.exports = {
       'location',
       'speakers',
       'schedule',
-      'sponsors',
-      'partners',
-      'contact'
+      //'sponsors',
+      'partners'
+      //,'contact'
     ],
 
     // Labels which you can translate to other languages
@@ -55,9 +55,9 @@ module.exports = {
       location: "Local",
       speakers: "Palestrantes",
       schedule: "Programação",
-      sponsors: "Patrocionadores",
-      partners: "Parceiros",
-      contact: "Contato"
+      //sponsors: "Patrocionadores",
+      partners: "Patrocionadores / Parceiros"
+      //,contact: "Contato"
     },
 
     // The entire schedule
@@ -72,13 +72,14 @@ module.exports = {
         bio: "Paulo Leandro Rosa (Dro13n) is the Information Security specialist, coordinator and director of the oldest and largest event in Latin America FLISOL. Active contributor to open source projects and vulnerability enthusiastic researcher and Malware analysis. ",
         company: "Br Security",
         link: {
-          href: "mailto:paulo.rosa@fgp.com.br",
-          text: "@email"
+          href: "https://br.linkedin.com/in/paulo-leandro-rosa-6a841338",
+          text: "linkedin"
         },
         presentation: {
           title: "Como fazer ataques DDos",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time: "08h30"
+          description: "Essa prática se tornou preocupação em todo mundo, com essa palestra você poderá aprofundar seus conhecimentos e ter uma melhor visão sobre como se proteger desse tipo de ataque.",
+          time: "08h30",
+          downloadLink: "palestras/DDoS-FLISoL.ppt"
         }
       },
       {
@@ -91,79 +92,110 @@ module.exports = {
           text: "linkedin"
         },
         presentation: {
-          title: "Como preparar um ambiente para estudos e pesquisas de rede com software livre",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+          title: "Ambiente para estudos e pesquisas com software livre",
+          description: "Como preparar um ambiente para estudos e pesquisas de rede com software livre",
           time: "09h15"
         }
       },
       {
-        name: "Lunch",
-        time: "12h00"
-      },
-      {
-        name: "Chuck Norris",
-        photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Delta Command",
+        name: "Emerson Mellado",
+        photo: "themes/yellow-swan/img/erm.png",
+        bio: "Hi, my name is Emerson, I am a web developer passionate about technology, coffee and woodworking.",
+        company: "ER7 Networks",
         link: {
-          href: "http://twitter.com/littlechuck",
-          text: "@littlechuck"
+          href: "https://www.linkedin.com/in/emersonmellado",
+          text: "linkedin"
         },
         presentation: {
-          title: "How to kill a elephant with one finger",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time: "13h00"
+          title: "Desenvolvimento de aplicações modernas",
+          description: "Como iniciar o desenvolvimento de uma aplicação moderna com as ferramentas atuais?",
+          time: "09h45",
+          downloadLink: "Http://emersonmellado.github.io/flisol-2016-presentation.io"
+        }
+      },      
+      {
+        name: "Café :)",
+        time: "10h30"
+      },
+      {
+        name: "Maicon Fernandes Domingues",
+        photo: "themes/yellow-swan/img/no_profile_image_male.jpg",
+        company: "Finch soluções",
+        presentation: {
+          title: "Machine learning",
+          description: "O uso de ferramentas open-source para machine learning",
+          time: "11h00"
         }
       },
       {
-        name: "Steve Jobs",
-        photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Apple, Inc.",
-        link: {
-          href: "http://github.com/stevie",
-          text: "@stevie"
-        },
+        name: "Julio Cesar Faracco",
+        photo: "themes/yellow-swan/img/julio.jpg",
+        bio: "",
+        company: "IBM",
         presentation: {
-          title: "Presenting iPad",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
+          title: "Internet das Coisas com Arduino",
+          description: "",
+          time: "11h45",
+          downloadLink: "palestras/Internet_of_Things.pdf"
+        }
+      },
+      {
+        name: "Almoço",
+        time: "12h30"
+      },
+      {
+        name: "Isabella Fontes",
+        photo: "themes/yellow-swan/img/no_profile_image_female.jpg",
+        bio: "",
+        company: "MS Tech",
+        presentation: {
+          title: "Erlang",
+          description: "Linguagem funcional, concorrente e tolerante a falhas. Conceitos e curiosidades.",
           time: "14h00"
         }
       },
       {
-        name: "Coffee-break",
-        time: "15h00"
+        name: "Gustavo Nobrega",
+        photo: "themes/yellow-swan/img/no_profile_image_male.jpg",
+        bio: "",
+        company: "Sex Log",
+        presentation: {
+          title: "Linux e virtualização",
+          description: "",
+          time: "14h00"
+        }
+      },      
+      {
+        name: "Café :)",
+        time: "15h30"
       },
       {
-        name: "Mark Zuckerberg",
-        photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Facebook",
-        link: {
-          href: "http://twitter.com/zuck",
-          text: "@zuck"
-        },
+        name: "Marcelo Oliveiros Domingues",
+        photo: "themes/yellow-swan/img/no_profile_image_male.jpg",
+        bio: "",
+        company: "",
         presentation: {
-          title: "Revealing Facebook Secrets",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time: "16h00"
+          title: "VANTs",
+          description: "Software livre em controladoras de voo de VANTs - Drone Racing",
+          time: "16h00",
+          downloadLink: "palestras/Apresentacao_VANT.pdf"
         }
       },
       {
-        name: "Steve Wozniak",
-        photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Apple, Inc.",
-        link: {
-          href: "http://twitter.com/woz",
-          text: "@woz"
-        },
+        name: "Juliano Ferreira Sturza",
+        photo: "themes/yellow-swan/img/no_profile_image_male.jpg",
+        bio: "",
+        company: "",
         presentation: {
-          title: "Why do I prefer Android over iPhone",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time: "17h00"
+          title: "Zabbix",
+          description: "Conhecendo o Sistema de Monitoramento Zabbix",
+          time: "16h45"
         }
-      }
+      },
+      {
+        name: "Encerramento",
+        time: "17h30"
+      }      
     ],
 
     // List of Sponsors
@@ -172,11 +204,16 @@ module.exports = {
         name: "FGP",
         logo: "themes/yellow-swan/img/fgp.jpg",
         url: "http://www.fgp.com.br/"
-      }
+      }    
     ],
 
     // List of Partners
     partners: [
+      {
+        name: "FGP",
+        logo: "themes/yellow-swan/img/fgp.jpg",
+        url: "http://www.fgp.com.br/"
+      },    
       {
         name: "br Security",
         logo: "themes/yellow-swan/img/br-security.jpg",

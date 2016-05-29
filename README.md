@@ -43,4 +43,4 @@ William Galassi (William.galassi@fgp.com.br)
 
 MIT License
 
-Using - (https://github.com/braziljs/conf-boilerplate) © BrazilJS Foundation
+    *Using - (https://github.com/braziljs/conf-boilerplate) © BrazilJS Foundation

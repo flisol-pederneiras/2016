@@ -5,9 +5,10 @@ tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
   <table>
     <thead>
       <tr>
-        <th class="schedule-time">Time</th>
-        <th class="schedule-slot">Slot</th>
-        <th class="schedule-description">Description</th>
+        <th class="schedule-time">Horário</th>
+        <th class="schedule-slot">Sala</th>
+        <th class="schedule-description">Descrição</th>
+        <th class="schedule-description">Downlaod</th>
       </tr>
     </thead>
     <tbody>
@@ -26,11 +27,21 @@ tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
               <span class="speakers-company"><%= slot.company %></span>
             </td>
             <td class="schedule-description"><%= slot.presentation.description %></td>
+            <td class="schedule-description">
+              <% if slot.presentation.downloadLink: %>
+                <a href="<%= slot.presentation.downloadLink %>" alt="Clique para baixar a palestra">
+                  Baixar
+                </a>
+              <% else: %>
+                -
+              <% end %>               
+            </td>
           </tr>
         <% else: %>
           <tr class="schedule-other">
             <td class="schedule-time"><%= slot.time %></td>
             <td class="schedule-slot"><%= slot.name %></td>
+            <td class="schedule-description">-</td>
             <td class="schedule-description">-</td>
           </tr>
         <% end %>
